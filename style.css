@@ -1,0 +1,39 @@
+@font-face {
+    font-family: digital;
+    src: url(./DS-DIGIB.TTF);
+}
+.fff{
+    font-family: digital;
+    font-size: 4em;
+}
+.fonn {
+    font-family: sans-serif;
+}
+.fonnn {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.startt {
+    color: white;
+    background-color: rgb(19, 73, 19);
+    border-radius: 30px;
+
+}
+.stopp {
+    color: white;
+    background-color: rgb(158, 22, 22) ;
+    border-radius: 30px;
+}
+.resett {
+  
+    background-color: yellow;
+    border-radius: 30px;
+    
+}
+body {
+    background-image: linear-gradient(rgb(190, 107, 107), rgb(69, 179, 124),rgb(190, 107, 107));
+}
+.container {
+    height: 35vh;
+}
