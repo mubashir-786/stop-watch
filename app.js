@@ -44,10 +44,15 @@ function start(){
     interval = setInterval(stopwatch , 10)
 }
 function stopp(){
+    
     clearInterval(interval);
 
 }
 function reset(){
+    sec = 0
+    min = 0
+    msec = 0
+    hour = 0
     hourr.innerHTML = 00;
     minn.innerHTML = 00;
     secc.innerHTML = 00;
